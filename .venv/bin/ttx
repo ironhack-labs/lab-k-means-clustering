@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/brunoaugusto/Library/CloudStorage/OneDrive-Pessoal/01.Bruno/01.Ironhack learning Mat/IronHack/Git_Bruno_Repo/lab-k-means-clustering/.venv/bin/python" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from fontTools.ttx import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
